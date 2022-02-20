@@ -52,4 +52,9 @@
 			The site https://search.maven.org/ can be used to search for libraries and 
 			copy-paste the XML. Any GATE plugins needed at compile time should use "<scope>provided</scope>" -->
 	</dependencies>
+	 <dependency>
+        <groupId><yourGroupID></groupId>
+        <artifactId><yourArtifactId></artifactId>
+        <version><yourVersion></version>
+    </dependency>
 </project>
